@@ -4,7 +4,7 @@ import streamlit as st
 
 st.header('Cuadro de mando para un conjunto de datos de anuncios de venta de coches')
         
-car_data = pd.read_csv("C:/Users/felip/Desktop/PROYECTO-SPRINT-N-5/vehicles_us.csv") # leer los datos
+car_data = pd.read_csv("vehicles_us.csv") # leer los datos
 hist_button = st.button('Construir histograma') # crear un botón
         
 if hist_button: # al hacer clic en el botón
